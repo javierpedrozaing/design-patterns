@@ -1,4 +1,4 @@
-# Entrega 1
+# Patrones de diseño
 ## Especialización Ing de Software
 
 
