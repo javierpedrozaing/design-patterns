@@ -4,10 +4,7 @@ require_relative 'sugar_coffe_decorator'
 
 
 coffe = NormalCoffe.new
-coffe.make
-
 with_milk = MilkCoffeDecorator.new(coffe, 'milk')
-with_milk.make
 
 with_sugar = SugarCoffeDecorator.new(with_milk, 'sugar')
 with_sugar.make

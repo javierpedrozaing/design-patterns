@@ -17,6 +17,8 @@ class MilkCoffeDecorator < CoffeDecorator
   end
 
   def make
-    puts "Adding milk to the coffe"    
+    ingredients
+    super
+    puts "Adding milk to the coffe" 
   end
 end

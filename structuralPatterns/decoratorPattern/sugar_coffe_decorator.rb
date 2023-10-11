@@ -15,6 +15,8 @@ class SugarCoffeDecorator < CoffeDecorator
   end
 
   def make
-    puts "Adding sugar to the coffe"    
+    ingredients
+    super
+    puts "Adding sugar to the coffe"
   end
 end

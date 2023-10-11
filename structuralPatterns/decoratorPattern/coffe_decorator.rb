@@ -15,4 +15,8 @@ class CoffeDecorator
   def ingredients
     @decorated_coffee.ingredients
   end
+
+  def make
+    @decorated_coffee.make
+  end
 end
